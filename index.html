@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Học về những đặc tính cơ bản của CSS</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="hoc.css" />
+    <title>Các đặt tính cơ bản của CSS</title>
+  </head>
+  <body>
+    <h1>Tiêu đề</h1>
+    <h2 class="demo">Tiêu đề nhỏ 1</h2>
+    <h2 class="demo demo2">Tiêu đề nhỏ 2</h2>
+    <h2>Tiêu đề nhỏ 3</h2>
+    <h2>Tiêu đề nhỏ 4</h2>
+    <h2>Tiêu đề nhỏ 5</h2>
+    <p>Nội dung đoạn văn 1</p>
+    <p>Nội dung đoạn văn 2</p>
+    <p>Nội dung đoạn văn 3</p>
+    <ul>
+        <li>Nội dung 1</li>
+        <li>Nội dung 2</li>
+        <li>Nội dung 3</li>
+    </ul>
+
+    <h2>Ví dụ thẻ script</h2>
+<p id="demo">Nội dung ban đầu</p>
+
+<script>
+  document.getElementById("demo").innerHTML = "Xin chào từ JavaScript!";
+</script>
+
+<h2>Ví dụ Script ngoài</h2>
+<button onclick="sayHello()">Bấm vào tôi</button>
+
+<script src="app.js"></script>
+  </body>
 </html>
